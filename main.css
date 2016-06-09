@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 1080px;
+  position: relative;
+}
+
+ul {
+  padding-left: 0;
+}
+
+
+/*Nav Header*/
+nav {
+  padding: 4px 0px 5px 0px;
+}
+
+nav.header a {
+  color: grey;
+  text-decoration: none;
+  margin: 14px;
+  font-size: .8em;
+}
+
+nav a.black {
+  color: black;
+}
+
+/*Background Image & Catch Phrase*/
+
+div.background {
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+  background-image: url("./background.jpg")
+}
+
+
+h1.catch-phrase{
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 400px;
+  top: 140px;
+}
+
+/*Plan Options and Info*/
+
+div.plans {
+  position: relative;
+  width: 100%;
+  margin-top: 45px;
+}
+
+div.one-third {
+  width: 250px;
+  height: 300px;
+  border: solid black 1px;
+  float: left;
+  margin: 0 10px;
+}
+
+div.first-third {
+  margin-left: 155px;
+}
+
+div.more-info {
+  clear: left;
+  padding-top: 40px;
+  position: relative;
+}
+
+ul.plan-specs {
+  margin-top: 0;
+}
+
+.plan-specs {
+  text-align: center;
+}
+
+.plan-cost ul {
+  border: solid green 1px; 
+  text-align: center;
+}
+
+.green-box {
+  padding-top: 10px;
+  background-color: #519251;
+}
+
+div.choose {
+  text-align: center
+}
+
+/*Company Info*/
+
+.one-half {
+  width: 375px;
+  float: left;
+}
+
+.one-half p {
+  color: grey;
+}
+
+.first-half {
+  margin: 0px 20px 20px 162px;
+}
+
+.footer {
+  clear: both;
+  background-color: black;
+  color: white;
+  height: 60px;
+  text-align: center;
+}
+
+div.footer p {
+  color: grey;
+  padding-top: 20px;
+}
+
+div.footer p a {
+  color: white;
+}
+
+
+
+
+
