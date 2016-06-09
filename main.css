@@ -29,6 +29,10 @@ nav.header a {
   font-size: .8em;
 }
 
+nav a {
+  font-weight: 500;
+}
+
 nav a.black {
   color: black;
 }
@@ -62,8 +66,6 @@ div.plans {
 
 div.one-third {
   width: 250px;
-  height: 300px;
-  border: solid black 1px;
   float: left;
   margin: 0 10px;
 }
@@ -80,6 +82,7 @@ div.more-info {
 
 ul.plan-specs {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .plan-specs {
@@ -87,7 +90,6 @@ ul.plan-specs {
 }
 
 .plan-cost ul {
-  border: solid green 1px; 
   text-align: center;
 }
 
@@ -125,8 +127,24 @@ ul.plan-specs {
   opacity: 0.6;
 }
 
+.bottom {
+  background-color: #F7F7F7;
+  line-height: 2em;
+  border: solid 1px #E6E6E6;
+}
+
 div.choose {
-  text-align: center
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border: solid 1px #e6e6e6;
+  border-top: none;
+}
+
+input {
+  border-radius: 15px;
+  background-color: transparent;
+  border: solid 2px #E6E6E6;
+  font-weight: bold;
 }
 
 /*Company Info*/
