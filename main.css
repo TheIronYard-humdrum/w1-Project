@@ -47,8 +47,9 @@ h1.catch-phrase{
   position: absolute;
   color: white;
   text-align: center;
-  left: 400px;
+  left: 380px;
   top: 140px;
+  font-size: 2.5em;
 }
 
 /*Plan Options and Info*/
@@ -91,7 +92,8 @@ ul.plan-specs {
 }
 
 .green-box {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #519251;
 }
 
