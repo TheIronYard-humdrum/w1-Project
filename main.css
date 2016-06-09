@@ -8,7 +8,7 @@
 }
 
 .container {
-  width: 1080px;
+  width: 1100px;
   position: relative;
 }
 
@@ -25,8 +25,8 @@ nav {
 nav.header a {
   color: grey;
   text-decoration: none;
-  margin: 14px;
-  font-size: .8em;
+  margin: 15px;
+  font-size: .9em;
 }
 
 nav a {
@@ -41,7 +41,7 @@ nav a.black {
 
 div.background {
   width: 100%;
-  height: 350px;
+  height: 328px;
   overflow: auto;
   background-image: url("./background.jpg")
 }
@@ -51,8 +51,8 @@ h1.catch-phrase{
   position: absolute;
   color: white;
   text-align: center;
-  left: 380px;
-  top: 140px;
+  left: 400px;
+  top: 120px;
   font-size: 2.5em;
 }
 
@@ -61,13 +61,13 @@ h1.catch-phrase{
 div.plans {
   position: relative;
   width: 100%;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 div.one-third {
-  width: 250px;
+  width: 255px;
   float: left;
-  margin: 0 10px;
+  margin-right:12px ;
 }
 
 div.first-third {
@@ -129,7 +129,7 @@ ul.plan-specs {
 
 .bottom {
   background-color: #F7F7F7;
-  line-height: 2em;
+  line-height: 2.2em;
   border: solid 1px #E6E6E6;
 }
 
@@ -164,7 +164,7 @@ input {
 }
 
 .first-half {
-  margin: 0px 20px 20px 162px;
+  margin: 0px 20px 20px 165px;
 }
 
 .footer {
