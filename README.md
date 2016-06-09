@@ -1,6 +1,6 @@
 #### Week 1 Project - HTML & CSS - Build Full Layout
 ---
-* Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/blob/master/index.html)
+* Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/tree/master/normal-mode)
 * Hard Mode - Skinny Ties
 * If both above links work I've accomplished NIGHTMARE MODE!
 
