@@ -2,7 +2,7 @@
 ---
 * Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/blob/master/index.html)
 * Hard Mode - Skinny Ties
-* If both above links work I've accomplished **NIGHTMARE MODE!**
+* If both above links work I've accomplished NIGHTMARE MODE!
 ---
 
 ##### Normal Mode
