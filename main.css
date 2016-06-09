@@ -97,6 +97,34 @@ ul.plan-specs {
   background-color: #519251;
 }
 
+.blue-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2C4985;
+}
+
+.black-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #101010;
+}
+
+.plan-type {
+  color: white;
+  font-size: .9em;
+  letter-spacing: .15em
+}
+
+.price {
+  color: white;
+  font-size: 5em;
+}
+
+.per {
+  color: white;
+  opacity: 0.6;
+}
+
 div.choose {
   text-align: center
 }
