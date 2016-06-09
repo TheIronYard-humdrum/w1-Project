@@ -7,7 +7,7 @@
 ---
 
 ##### Normal Mode
-* Used '<ul>' instead of '<nav>' to create layout for Plan Specs.
+* Used 'ul' instead of 'nav' to create layout for Plan Specs.
 * Border Radius, Forms, Buttons.
 * Problem of Scrolling Background - Solved by using CSS to style 'background-image: url("./background.jpg")' instead of 'img' tag in HTML.
 

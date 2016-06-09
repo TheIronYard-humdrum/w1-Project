@@ -1,15 +1,15 @@
 #### Week 1 Project - HTML & CSS - Build Full Layout
 ---
-* Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/blob/master/index.html)
+* Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/tree/master/normal-mode)
 * Hard Mode - Skinny Ties
 * If both above links work I've accomplished NIGHTMARE MODE!
 
 ---
 
 ##### Normal Mode
-* Used this tool.
-* Used that tool.
-* Had this problem, fixed it this way.
+* Used 'ul' instead of 'nav' to create layout for Plan Specs.
+* Border Radius, Forms, Buttons.
+* Problem of Scrolling Background - Solved by using CSS to style 'background-image: url("./background.jpg")' instead of 'img' tag in HTML.
 
 ##### Hard Mode
 * Used this tool.
