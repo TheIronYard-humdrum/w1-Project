@@ -5,6 +5,14 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+body {
+  width: 1100px;
+}
+
+a {
+  text-decoration: none;
+}
+
 div.header {
   background-color: #F86838;
   color: white;
@@ -56,19 +64,168 @@ p.thirty {
   left: 580px;
 }
 
+.sub-header {
+  position: relative;
+  border-bottom: 5px solid transparent;
+  border-image: url(./assets/perforated-bottom@2x.png) 22 22 repeat;
+  height: 105px;
+}
+
+img.logo {
+  width: 109px;
+  height: 100px;
+  position: absolute;
+  left: 95px;
+}
+
+.links {
+  position: absolute;
+  left: 265px;
+  top: 38px;
+}
+
+.links a {
+  color: #545454;
+  font-size: 1.3em;
+}
+
+.links a.first,
+.links a.second,
+.links a.third,
+.links a.fourth {
+  margin-right: 17px; 
+  position: relative;
+}
+
+.links a.last {
+  position: relative;
+}
+
+.links a:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 2.5px 0 2.5px;
+  border-color: #e3e3e3 transparent transparent transparent;
+
+  position: absolute;
+  top: 28px;
+  left: 50%;
+}
+
+.sub-header-right {
+  float: right;
+  margin-right: 95px;
+  margin-top: 10px;
+  
+  width: 227px;
+  position: relative;
+}
+
+.sub-header-right a {
+  color: #afafaf;
+  font-size: .63em;
+  letter-spacing: .02em;
+  position: absolute;
+}
+
+.sub-header-right a.first {
+  left: 134px;
+  top: 5px;
+}
+
+.sub-header-right a.last {
+  left: 180px;
+  top: 5px;
+}
 
 
+.search {
+  border: solid #Dfdfdf 1px;
+  border-radius: 2px;
+  height: 30px;
+  width: 82px;
+  position: absolute;
+  top: 25px;
+}
 
+.cart-sprite {
+  background: url('assets/sprite@2x.png') no-repeat -90px -32px;
+  width: 28px;
+  height: 24px;
+  zoom: 0.475;
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}
 
+p.cart {
+  position: absolute;
+  color: #545454;
+  font-size: 1.65em;
+  margin: 0;
+  left: 40px; 
+}
 
+.grey-box {
+  background-color: #C7C7C7;
+  width: 17px;
+  height: 17px;
+  border-radius: 2px;
+  position: absolute;
+  left: 56px;
+  top: 6px;
+}
 
+.grey-box p {
+  margin: 0;
+  font-size: .75em;
+  position: absolute;
+  left: 5px;
+  color: white;
+  top: 2px;
+}
 
+.grey-box::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3.5px 4px 3.5px 0;
+  border-color: transparent #C7C7C7 transparent transparent;
+  position: absolute;
+  top: 2px;
+  left: -3px;
+}
 
+.search-box-outer {
+  position: absolute;
+  border:solid 3px #F4F4F4;
+  left: 90px;
+  border-radius: 3px;
+  height: 30px;
+}
 
+input {
+  border: solid #E2E2E2 2px;
+  width: 130px;
+  border-radius: 2px;
+  font-size: .7em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+}
 
-
-
-
+.search-img {
+  background: url('assets/sprite@2x.png') no-repeat -29px -29px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  zoom: 0.45;
+  left: 15px;
+  bottom: 15px;
+}
 
 
 
