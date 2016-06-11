@@ -307,10 +307,18 @@ p.img-tag {
   text-align: center;
   padding-top: 30px;
   font-size: 2em;
+  margin-bottom: 15px;
 }
 
 .accessories p.story {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.story a {
+  color: #33A1FF;
+  font-size: .8em;
+  font-weight: bold;
 }
 
 p.pocket-squares {
@@ -328,7 +336,14 @@ div.more-info {
 div.one-fourth {
   float: left;
   width: 210px;
-  text-align: center;
+  text-align: left;
+  margin-top: 50px;
+  overflow: auto;
+  margin-right: 25px;
+}
+
+div.one-fourth:first-child {
+  margin-left: 95px;
 }
 
 div.one-fourth img {
@@ -354,10 +369,72 @@ div.one-fourth a {
   float: left;
 }
 
-.sprite {
+.sprite-one,
+.sprite-two,
+.sprite-three {
   width: 20px;
   height: 20px;
   float: left;
+  margin-right: 15px;
+}
+
+.sprite-one {
+  background: url('imgs/sprite@2x.png') no-repeat -540px 0;
+  zoom: .45;
+  height: 73px;
+  width: 73px;
+}
+
+.sprite-two {
+  background: url('imgs/sprite@2x.png') no-repeat -540px -80px;
+  zoom: .45;
+  height: 73px;
+  width: 73px;
+}
+
+.sprite-three {
+  background: url('imgs/sprite@2x.png') no-repeat -540px -160px;
+  zoom: .45;
+  height: 73px;
+  width: 73px;
+}
+
+form.quaterly div {
+  
+}
+
+input.email {
+  margin-left: 3px;
+  font-size: .7em;
+  width: 150px;
+  border-radius: 3px;
+  border: solid #F2F2F2 1px;
+  box-shadow: -1px 2px #f4f4f4,
+              -1px 1px #f4f4f4,
+              -1px 0px #f4f4f4,
+              -1px -1px #f4f4f4,
+              -1px -2px #f4f4f4,
+              1px -2px #f4f4f4,
+              1px -1px #f4f4f4,
+              1px 0px #f4f4f4,
+              1px 1px #f4f4f4,
+              1px 2px #f4f4f4,
+              2px -2px #f4f4f4,
+              2px -1px #f4f4f4,
+              2px 0px #f4f4f4,
+              2px 1px #f4f4f4,
+              2px 2px #f4f4f4;
+}
+
+input.subscribe {
+  background-color: #33A1FF;
+  border: solid 1px #33A1FF;
+  border-radius: 3px;
+  color: white;
+  font-size: .6em;
+  width: 90px;
+  margin-left: 3px;
+  margin-top: 8px;
 }
 
 /******* Footer */
