@@ -1,3 +1,4 @@
+/****** General */
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,6 +14,7 @@ a {
   text-decoration: none;
 }
 
+/******* Header */
 div.header {
   background-color: #F86838;
   color: white;
@@ -64,11 +66,13 @@ p.thirty {
   left: 580px;
 }
 
+/***** Sub Header */
+
 .sub-header {
   position: relative;
-  border-bottom: 5px solid transparent;
-  border-image: url(./assets/perforated-bottom@2x.png) 22 22 repeat;
   height: 105px;
+  z-index: 2;
+  background-color: white;
 }
 
 img.logo {
@@ -226,6 +230,65 @@ input {
   left: 15px;
   bottom: 15px;
 }
+
+/**** Main Content - Ties*/
+
+
+.tie-container {
+  position: relative;
+  background-color: #F4F4F4
+  z-index: 1;
+  height: 342px;
+  padding-left: 155px;
+}
+
+.tie-container::before {
+  content: "";
+  border-top: 5px solid transparent;
+  border-image: url(./assets/perforated-bottom@2x.png) 22 22 repeat;
+}
+
+ul.ties {
+  display: inline;
+  list-style: none;
+}
+
+.tie {
+  float: left;
+  width: 70px;
+  position: relative;
+}
+
+li.tie {
+  margin-right: 20px;
+}
+
+.tie img {
+  zoom: 0.545;
+}
+
+a.tie-link {
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
