@@ -1,5 +1,4 @@
 * {
-  border: solid green 1px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -13,11 +12,11 @@ a {
 
 .container {
   width: 1100px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 /******* Promotional */
 .promotional {
-  height: 30px;
+  height: 33px;
   background-color: #FA6938;
   color: white;
   padding-left: 91px;
@@ -34,7 +33,7 @@ p.free {
   font-size: .6em;
   width: 94px;
   height: 20px;
-  margin-top: 3px;
+  margin-top: 6px;
   padding-left: 7px;
   padding-top: 4.5px;
   letter-spacing: .05em;
@@ -44,7 +43,7 @@ p.free {
 }
 
 p.savings {
-  margin-top: 4px;
+  margin-top: 8px;
   font-size: .75em;
   margin-left: 12px;
   font-weight: 600;
@@ -54,7 +53,7 @@ p.deal-one,
 p.deal-two,
 p.deal-three {
   font-size: .875em;
-  margin-top: 3px;
+  margin-top: 5px;
   padding-top: -1px;
   margin-left: 15px;
 }
@@ -65,31 +64,129 @@ p.deal-three {
 
 /****** Nav*/
 .nav {
-  height: 120px;
+  height: 105px;
   background-color: white;
-  position: relative;
+  /*position: relative;*/
 }
 
 .logo-box {
-  height: 120px;
-  width: 120px;
+  height: auto;
+  width: auto;
   margin: -1px 90px 0 50px;
   margin-left: 90px;
   margin-right: 50px;
 }
 
 .logo-box img {
+  margin-top: 2px;
   zoom: 0.43;
 }
 
 .nav-box {
-  height: 120px;
+  height: auto
 }
 
 .logo-box,
-.nav-box {
+.nav-box,
+.user-box {
   float: left;
 }
+
+div.user-box {
+  height: auto;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.user-links {
+  float: right;
+}
+
+.user-links a{
+  float: left;
+  color: #AFAFAF; 
+  font-size: .6em;
+  margin-bottom: 5px;
+}
+
+a.sign-in {
+  margin-right: 12px;
+}
+
+.button-box {
+  float: left;
+  clear: right;
+  border: solid 1px #C6c6c6;
+  padding-right: 3px;
+  margin-left: 73px;
+  margin-bottom: 2px;
+  height: 28px;
+  width: 81px;
+} 
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 80px;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 7px;
+  font-size: .7em;
+  width: 60px;
+}
+
+button::before {
+  content: "";
+  background: url('imgs/sprite@2x.png') no-repeat -90px -32px;
+  width: 28px;
+  height: 24px;
+  position: absolute;
+  zoom: .5;
+  left: 10px;
+  top: 13px;
+}
+
+.grey-box {
+  height: 15px;
+  width: 15px;
+  background-color: #C6C6C6;
+  float: right;
+  border-radius: 3px;
+  margin-top: 6px;
+  position: relative;
+}
+
+.grey-box p::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 5px 4px 0;
+  border-color: transparent #C6C6C6 transparent transparent;
+  position: absolute;
+  left: -5px;
+  top: 3px;
+}
+
+.grey-box p {
+  font-size: .7em;
+  color: white;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+
+form {
+  float: right;
+  clear: right;
+}
+
+input.search {
+  width: 135px;
+  height: 28px;
+  padding: 1px 1px;
+  font-size: .7em;
+}
+
 
 /**** Nav*/
 
@@ -124,6 +221,7 @@ li.tie a {
   letter-spacing: -.075em;
 }
 
+
 .user-box {
   height: 120px;
   width: 300px;
@@ -132,11 +230,11 @@ li.tie a {
 
 /****** Main Content*/
 .main-content {
-  height: 600px;
+  height: 700px;
 }
 
 #ties {
-  height: 300px;
+  height: 325px;
   background-color: #F4F4F4;
   text-align: center;
 }
@@ -154,10 +252,14 @@ div.tie-div {
 
 .tie-div a {
   text-decoration: none;
+  color: black;
 }
 
 #ties h1 {
   clear: left;
+  padding-top: 40px;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 .black {
@@ -166,60 +268,91 @@ div.tie-div {
 
 /****** Acessories */
 .accessories {
-  height: 300px;
   background-color: white;
+  margin-top: 30px;
+  padding-top: 10px;
 }
 
 .acc {
   float: left;
   position: relative;
+  width: 292px;
+  margin-left: 18px;
+  background-color: #F4F4F4;
+  overflow: auto;
+}
+
+.acc:first-child {
+  margin-left: 95px;
 }
 
 .acc img {
-  zoom: .7;
+  zoom: .65;
+}
+
+img.pocket-squares {
+  margin-left: -80px;
 }
 
 p.img-tag {
   position: absolute;
-  right: 30px;
+  right: 10px;
   top: 0;
-  font-weight: bold;
+  font-size: 1.25em;
+  font-weight: 600;
 }
 
 .accessories h2 {
   clear: both;
   text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
 }
 
 .accessories p.story {
   text-align: center;
 }
 
+p.pocket-squares {
+  width: 90px;
+  text-align: right;
+}
+
 /******** More Info*/
-.more-info {
-  height: 200px;
-  background-color: white;
+
+div.more-info {
+  width: 1100px;
+  position: relative;
 }
 
-.more-info a {
-  color: lightblue;
+div.one-fourth {
+  float: left;
+  width: 210px;
+  text-align: center;
 }
 
-.one-fourth {
-  width: 200px;
-  height: 150px;
+div.one-fourth img {
+  zoom: .5;
+}
+
+div.one-fourth h3 {
+  font-weight: bold; 
+}
+
+div.one-fourth p {
+  font-size: .7em;
+  font-weight: bold;
+}
+
+div.one-fourth a {
+  color: #33A1FF;
+  font-size: .7em;
+  font-weight: bold;
+}
+
+.quaterly {
   float: left;
 }
-
-.one-fourth h4 {
-  font-weight: 600;
-}
-
-.week-pick {
-  zoom: .45;
-}
-
-
 
 .sprite {
   width: 20px;
@@ -231,6 +364,7 @@ p.img-tag {
 .footer {
   height: 300px;
   background-color: #F4F4F4;
+  clear: left;
 }
 
 .mini-fourth {
