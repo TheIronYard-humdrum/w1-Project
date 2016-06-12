@@ -66,7 +66,8 @@ p.deal-three {
 .nav {
   height: 105px;
   background-color: white;
-  /*position: relative;*/
+  border-bottom: solid transparent 5px;
+  border-image: url(./imgs/perforated-bottom@2x.png) 22 22 repeat;
 }
 
 .logo-box {
@@ -124,7 +125,7 @@ a.sign-in {
   width: 81px;
 } 
 
-button {
+button.cart {
   background-color: transparent;
   border: none;
   width: 80px;
@@ -135,7 +136,7 @@ button {
   width: 60px;
 }
 
-button::before {
+button.cart::before {
   content: "";
   background: url('imgs/sprite@2x.png') no-repeat -90px -32px;
   width: 28px;
@@ -315,6 +316,18 @@ p.img-tag {
   margin-bottom: 50px;
 }
 
+div.hr {
+  position: relative;
+}
+
+hr {
+  border: solid 5px transparent;
+  border-image: url(./imgs/hatch-light@2x.png) 5 5 repeat;
+  position: absolute;
+  width: 100%;
+}
+
+
 .story a {
   color: #33A1FF;
   font-size: .8em;
@@ -330,7 +343,10 @@ p.pocket-squares {
 
 div.more-info {
   width: 1100px;
+  height: 320px;
   position: relative;
+  border-bottom: solid transparent 5px;
+  border-image: url(./imgs/perforated-bottom@2x.png) 22 22 repeat;
 }
 
 div.one-fourth {
@@ -439,25 +455,95 @@ input.subscribe {
 
 /******* Footer */
 .footer {
-  height: 300px;
+  height: 190px;
   background-color: #F4F4F4;
   clear: left;
 }
 
 .mini-fourth {
   width: 100px;
-  height: 250px;
   float: left;
+  margin-right: 20px;
+}
+
+.mini-fourth a {
+  color: black;
 }
 
 .footer p.first {
   clear: both;
+  margin-left: 90px;
+  margin-right: 20px;
 }
 
-.footer p {
+.footer p.copy {
   float: left;
+  font-size: .6em;
+  padding-top: 10px;
 }
 
+.footer h4 {
+  font-weight: bolder;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+div.footer div.first {
+  margin-left: 90px;
+}
+
+.footer li {
+  font-size: .8em;
+  letter-spacing: -.01em;
+}
+
+/*******Contact Us*/
+
+div.customer-service {
+  height: 90px;
+  width: 260px;
+  margin-left: 750px;
+  margin-top: 40px;
+  background-color: #a0adbe;
+  color: white;
+  position: absolute;
+  border: solid 2px #93a0b0;
+  border-radius: 3px;
+}
+
+div.customer-service h3 {
+  margin: 10px 0 0 8px;
+}
+
+div.customer-service p {
+  margin: 0;
+}
+
+div.customer-service p.email {
+  font-size: .7em;
+  margin: 12px 0 5px 8px;
+}
+
+div.customer-service p.number {
+  font-size: .8em;
+  margin: 0 0 0 9px;
+}
+
+.footer-button {
+  margin-left: 130px;
+  width: 90px;
+  background-color: #319af4;
+  border: solid 1px #319af4;
+  border-radius: 3px;
+  font-size: .8em;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
 
 
 
