@@ -30,6 +30,10 @@ a {
   font-weight: thin;
 }
 
+div.promotional p {
+  letter-spacing: .03em;
+}
+
 p.free {
   font-size: .6em;
   width: 94px;
@@ -38,7 +42,7 @@ p.free {
   padding-left: 7px;
   padding-top: 4.5px;
   letter-spacing: .05em;
-  font-weight: 600;
+  font-weight: 300;
   background-color: #C7532C;
   border-radius: 3px;
 }
@@ -46,17 +50,17 @@ p.free {
 p.savings {
   margin-top: 8px;
   font-size: .75em;
-  margin-left: 12px;
-  font-weight: 600;
+  margin-left: 15px;
+  font-weight: 300;
 }
 
 p.deal-one,
 p.deal-two,
 p.deal-three {
   font-size: .875em;
-  margin-top: 5px;
-  padding-top: -1px;
+  margin-top: 8px;
   margin-left: 15px;
+  font-weight: 300;
 }
 
 .deal-one {
@@ -125,7 +129,7 @@ li.tie a {
 
 div.user-box {
   height: auto;
-  margin-right: 80px;
+  margin-right: 95px;
   margin-top: 20px;
 }
 
@@ -147,12 +151,13 @@ a.sign-in {
 .button-box {
   float: left;
   clear: right;
-  border: solid 1px #C6c6c6;
+  border: solid 1px #efefef;
   padding-right: 3px;
-  margin-left: 50px;
+  margin-left: 73px;
   margin-bottom: 2px;
-  height: 28px;
+  height: 31px;
   width: 81px;
+  border-radius: 3px;
 } 
 
 button.cart {
@@ -174,7 +179,7 @@ button.cart::before {
   position: absolute;
   zoom: .5;
   left: 10px;
-  top: 13px;
+  top: 15px;
 }
 
 .grey-box {
@@ -183,7 +188,7 @@ button.cart::before {
   background-color: #C6C6C6;
   float: right;
   border-radius: 3px;
-  margin-top: 6px;
+  margin-top: 8px;
   position: relative;
 }
 
@@ -202,20 +207,24 @@ button.cart::before {
 .grey-box p {
   font-size: .7em;
   color: white;
-  margin-top: 2px;
+  margin-top: 1px;
   margin-left: 4px;
 }
 
-form {
+form.search {
   float: right;
   clear: right;
+  border: solid #efefef 2px;
+  border-radius: 3px;
 }
 
 input.search {
-  width: 135px;
-  height: 28px;
-  padding: 1px 1px;
+  height: 27px;
+  width: 132px;
   font-size: .7em;
+  border: solid 1px #dfdfdf;
+  border-radius: 2px;
+  padding-left: 20px;
 }
 
 
@@ -231,7 +240,7 @@ input.search {
 }
 
 #ties {
-  height: 300px;
+  height: 323px;
   background-color: #F4F4F4;
   text-align: center;
 }
@@ -240,11 +249,12 @@ div.tie-div {
   float: left;
   width: 80px;
   text-align: center;
-  margin-right: 12px;
+  margin-right: 10px;
 }
 
 .tie-div img {
-  zoom: .58;
+  zoom: .53;
+  margin-bottom: 20px;
 }
 
 .tie-div a {
@@ -260,7 +270,7 @@ div.tie-div {
 }
 
 .black {
-  margin-left: 145px;
+  margin-left: 150px;
 }
 
 /****** Acessories */
