@@ -221,10 +221,10 @@ form.search {
 input.search {
   height: 27px;
   width: 132px;
-  font-size: .7em;
+  font-size: .65em;
   border: solid 1px #dfdfdf;
   border-radius: 2px;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 
@@ -236,7 +236,7 @@ input.search {
 
 /****** Main Content*/
 .main-content {
-  height: 650px;
+  height: 780px;
 }
 
 #ties {
@@ -301,10 +301,10 @@ div.tie-div {
 }
 
 .pocket-squares-img {
-  zoom: .55;
+  zoom: .7;
   position: absolute;
   left: -75px;
-  top: 35px;
+  top: 10px;
 }
 
 
@@ -323,13 +323,17 @@ p.img-tag {
 .accessories h2 {
   clear: both;
   text-align: center;
-  padding-top: 30px;
-  font-size: 1.5em;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  padding-top: 65px;
+  line-height: 1.5em;
+  font-size: 1.8em;
+  font-style: italic;
 }
 
 .accessories p.story {
   text-align: center;
+  margin-top: 0;
+  letter-spacing: .07em;
 }
 
 div.hr {
