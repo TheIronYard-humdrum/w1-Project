@@ -387,7 +387,10 @@ div.one-fourth img {
 }
 
 div.one-fourth h3 {
-  font-weight: bold; 
+  font-weight: bolder;
+  font-size: 1.1em;
+  margin-top: 6px;
+  margin-bottom: 8px;
 }
 
 div.one-fourth p {
@@ -405,8 +408,18 @@ div.one-fourth p a {
   font-size: .8em;
 }
 
+a.weekly-pick {
+  position: absolute;
+  width: inherit;
+}
+
 .quaterly {
   float: left;
+}
+
+p.style-guide {
+  margin-top: 0px;
+  line-height: 1.2em;
 }
 
 .sprite-one,
