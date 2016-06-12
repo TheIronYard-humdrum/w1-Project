@@ -12,9 +12,9 @@
 * Problem of Scrolling Background - Solved by using CSS to style `background-image: url("./background.jpg")` instead of `<img>` tag in HTML.
 
 ##### Hard Mode
-* Used this tool.
-* Used that tool.
-* Had this problem, fixed it this way.
+* Learned proficiency with sprites and psuedo tags.
+* Problem:  content showing in psuedo tags. Solution: don't forget the `content: "" ;`.
+* Practice using `zoom`.
 
 
 ### Week 1... DONE!!
