@@ -85,9 +85,6 @@ p.deal-three {
 }
 
 /**** Nav*/
-.nav-box {
-  border:solid black 1px;
-}
 
 ul.ties {
   list-style: none;
@@ -277,9 +274,11 @@ div.tie-div {
   float: left;
   position: relative;
   width: 292px;
+  height: 180px;
   margin-left: 18px;
   background-color: #F4F4F4;
   overflow: auto;
+  position: relative;
 }
 
 .acc:first-child {
@@ -290,16 +289,16 @@ div.tie-div {
   zoom: .8;
 }
 
-.pocket-squares {
-  zoom: .65;
+.pocket-squares-img {
+  zoom: .55;
+  position: absolute;
+  left: -75px;
+  top: 35px;
 }
+
 
 .tie-bars-img {
   zoom: .55;
-}
-
-img.pocket-squares {
-  margin-left: -80px;
 }
 
 p.img-tag {
