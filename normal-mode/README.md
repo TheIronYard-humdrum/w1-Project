@@ -13,7 +13,7 @@
 
 ##### Hard Mode
 * Learned proficiency with sprites and psuedo tags.
-* Problem:  content showing in psuedo tags. Solution: don't forget the `content: "" ;`.
+* Problem:  content not showing in psuedo tags. Solution: don't forget the `content: "" ;`.
 * Practice using `zoom`.
 
 
