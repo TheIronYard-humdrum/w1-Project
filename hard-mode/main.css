@@ -363,7 +363,7 @@ p.img-tag.pocket-squares {
 
 div.more-info {
   width: 1100px;
-  height: 300px;
+  height: 275px;
   position: relative;
   border-bottom: solid transparent 5px;
   border-image: url(./imgs/perforated-bottom@2x.png) 22 22 repeat;
@@ -389,7 +389,6 @@ div.one-fourth img {
 div.one-fourth h3 {
   font-weight: bolder;
   font-size: 1.1em;
-  margin-top: 6px;
   margin-bottom: 8px;
 }
 
@@ -511,7 +510,7 @@ input.subscribe {
 
 .footer p.first {
   clear: both;
-  margin-left: 90px;
+  margin-left: 95px;
   margin-right: 20px;
 }
 
@@ -521,17 +520,30 @@ input.subscribe {
   padding-top: 10px;
 }
 
+.footer p {
+  margin-top: 22px;
+  letter-spacing: .005em;
+}
 .footer h4 {
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: .7em;
+  margin-top: 23px;
+  margin-bottom: 5px;
 }
 
-.footer ul {
+.footer .mini-fourth ul {
   list-style: none;
   padding: 0;
+  margin-top: 0px;
+}
+
+.footer .mini-fourth li {
+  line-height: 1.3em;
+  font-size: .7em;
 }
 
 div.footer div.first {
-  margin-left: 90px;
+  margin-left: 95px;
 }
 
 .footer li {
@@ -542,10 +554,10 @@ div.footer div.first {
 /*******Contact Us*/
 
 div.customer-service {
-  height: 90px;
-  width: 260px;
-  margin-left: 750px;
-  margin-top: 40px;
+  height: 108px;
+  width: 277px;
+  margin-left: 730px;
+  margin-top: 25px;
   background-color: #a0adbe;
   color: white;
   position: absolute;
@@ -560,30 +572,31 @@ div.customer-service h3 {
 
 div.customer-service p {
   margin: 0;
-  font-style: italic;
 }
 
 div.customer-service p.email {
-  font-size: .7em;
-  margin: 12px 0 5px 8px;
+  font-size: .9em;
+  margin: 17px 0 5px 12px;
+
 }
 
 div.customer-service p.number {
-  font-size: .8em;
-  margin: 0 0 0 9px;
+  font-size: 1em;
+  margin: 0 0 0 12px;
 }
 
 .footer-button {
-  margin-left: 130px;
-  width: 90px;
+  color: white;
+  position: absolute;
   background-color: #319af4;
   border: solid 1px #319af4;
   border-radius: 3px;
+  margin-left: 130px;
+  width: 92px;
+  height: 35px;
   font-size: .8em;
-  color: white;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 15px;
+  right: 13px;
 }
 
 
