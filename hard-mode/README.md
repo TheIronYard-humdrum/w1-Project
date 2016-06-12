@@ -1,4 +1,4 @@
-#### Week 1 Project - HTML & CSS - Build Full Layout
+#### [Week 1](https://github.com/jjrajani/w1-Project) Project - HTML & CSS - Build Full Layout
 ---
 * Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/tree/master/normal-mode)
 * Hard Mode - [Skinny Ties](https://github.com/jjrajani/w1-Project/tree/master/hard-mode)
