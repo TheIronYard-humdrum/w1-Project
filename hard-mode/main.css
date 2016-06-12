@@ -451,8 +451,13 @@ p.style-guide {
   width: 73px;
 }
 
-form.quaterly div {
-  
+
+img.style-guide {
+  zoom: .6;
+}
+
+div.style-guide {
+  overflow: hidden;
 }
 
 input.email {

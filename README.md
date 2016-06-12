@@ -10,6 +10,7 @@
 * Used `<ul>` instead of `<nav>` to create layout for Plan Specs.
 * Border Radius, Forms, Buttons.
 * Problem of Scrolling Background - Solved by using CSS to style `background-image: url("./background.jpg")` instead of `<img>` tag in HTML.
+* Problem of Scrolling Div - Solved by using `overflow: hidden;`.
 
 ##### [Hard Mode](https://github.com/jjrajani/w1-Project/tree/master/hard-mode)
 * Learned proficiency with sprites and psuedo tags.
