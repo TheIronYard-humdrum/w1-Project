@@ -521,10 +521,12 @@ div.customer-service {
 
 div.customer-service h3 {
   margin: 10px 0 0 8px;
+  font-style: italic;
 }
 
 div.customer-service p {
   margin: 0;
+  font-style: italic;
 }
 
 div.customer-service p.email {
