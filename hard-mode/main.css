@@ -283,10 +283,11 @@ div.tie-div {
 
 .acc:first-child {
   margin-left: 95px;
+  overflow: hidden;
 }
 
 .bow-tie-img {
-  zoom: .8;
+  zoom: .7;
 }
 
 .pocket-squares-img {
@@ -306,7 +307,7 @@ p.img-tag {
   right: 10px;
   top: 0;
   font-size: 1.25em;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .accessories h2 {
@@ -339,7 +340,7 @@ hr {
   font-weight: bold;
 }
 
-p.pocket-squares {
+p.img-tag.pocket-squares {
   width: 90px;
   text-align: right;
 }
