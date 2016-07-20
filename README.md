@@ -1,6 +1,6 @@
 #### [Week 1](https://github.com/jjrajani/w1-Project) Project - HTML & CSS - Build Full Layout
 ---
-##### Just beginning to learn HTML & CSS
+###### Just beginning to learn HTML & CSS
 ---
 
 * Normal Mode - [Subscription Service](https://github.com/jjrajani/w1-Project/tree/master/normal-mode)
